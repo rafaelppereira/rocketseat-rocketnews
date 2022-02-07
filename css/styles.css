@@ -1,0 +1,172 @@
+:root {
+  --body-bg-color: #121214;
+  --text-color: #e1e1e6;
+  --title-color: #04d361;
+  --form-color: #a8a8a8;
+  --bg-button-color: #8257e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--body-bg-color);
+}
+
+.data,
+.image {
+  width: 50%;
+  height: 100%;
+}
+
+.data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+}
+
+.data img {
+  width: 389px;
+}
+
+.data .content {
+  margin-top: 92px;
+}
+
+.data .content h2 {
+  color: var(--title-color);
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700;
+}
+
+.data .content p {
+  color: var(--text-color);
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  margin-top: 8.56px;
+}
+
+.data .content p.first {
+  font-weight: 300;
+  margin-top: 9px;
+  max-width: 647px;
+}
+
+.data .form {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.data .form label {
+  color: var(--form-color);
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+}
+
+.data .form .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: calc(100% + 150px);
+  z-index: 999;
+}
+
+.data .form .input span {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 4px;
+  height: 48px;
+  background-color: var(--title-color);
+}
+
+.data .form .input input[type="email"] {
+  margin-top: 17px;
+  height: 48px;
+  padding-left: 10px;
+  width: 100%;
+  position: relative;
+  border: 2px solid;
+  border-color: var(--text-color);
+  outline: 0;
+  -webkit-transition: border-color 0.2s;
+  transition: border-color 0.2s;
+}
+
+.data .form .input input[type="email"]:focus {
+  border-color: var(--title-color);
+}
+
+.data .form .input button {
+  height: 48px;
+  width: 48px;
+  background-color: var(--bg-button-color);
+  border: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.data .form .input button img {
+  width: 60%;
+  color: var(--text-color);
+}
+
+.data a {
+  font-family: "Spartan", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 52px;
+  color: var(--bg-button-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.data a img {
+  width: 24px;
+  margin-left: 5px;
+}
+
+.image {
+  background-image: url("../assets/read_news.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=styles.css.map */
