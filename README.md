@@ -1,12 +1,10 @@
-![logo](https://user-images.githubusercontent.com/68617133/152883369-8f68db2b-7db6-4a59-b2d0-1390b129a84e.svg)
+<h1 align="center">RocketNews Challengs Rocketseat</h1>
 
+<p align="center">🤖 Project created for a Rocketseat challenge, it was used to train HTML, CSS along with advanced CSS and SASS techniques</p>
 
-Project created for a Rocketseat challenge, it was used to train HTML, CSS along with advanced CSS and SASS techniques
+<p align="center">To start the project just run the commands below</p>
 
-Just download the project and launch it with Live server in Visual Studio Code
-
-Fonts: Spartan and Work sans
-Techs: HTML, CSS and SASS
+<br/>
 
 
 
